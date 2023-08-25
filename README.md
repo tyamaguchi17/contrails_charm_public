@@ -88,4 +88,5 @@ The prediction for `validation` data will be saved at `../results/resnest269e_51
 
 ## Links
 https://github.com/knshnb/kaggle-contrails-3rd-place
+
 https://github.com/yoichi-yamakawa/kaggle-contrail-3rd-place-solution
