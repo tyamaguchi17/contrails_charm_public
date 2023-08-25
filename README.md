@@ -85,3 +85,7 @@ The prediction for `validation` data will be saved at `../results/maxvit_base_51
 $ bash exp/inference/exp003_resnest269e_2-5d_pl.sh
 ```
 The prediction for `validation` data will be saved at `../results/resnest269e_512_25d_pl_pretrain_finetune_all_train_inference/test_results/test_results.npz`
+
+## Links
+https://github.com/knshnb/kaggle-contrails-3rd-place
+https://github.com/yoichi-yamakawa/kaggle-contrail-3rd-place-solution
