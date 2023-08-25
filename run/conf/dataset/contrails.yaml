@@ -1,0 +1,25 @@
+type: contrails
+
+num_classes: 3
+num_folds: 5
+test_fold: 0  # Test fold for N-fold CV. Should be in [0, num_folds).
+val_fold: ${dataset.test_fold}  # Validation fold for N-fold CV. Should be in [0, num_folds).
+seed: 2023
+num_records: 0
+phase: train
+in_chans: 6
+data_path: ../data/google-research-identify-contrails-reduce-global-warming
+pl_path: ../data/pseudo-label
+use_valid: false
+normalize_method: null # mean_std
+n_frames_before: 0 # 0, 1, 2, 3, 4
+n_frames_after: 0 # 0, 1, 2, 3
+augmentation:
+  p_crop: 0
+  scale_max: 1.3
+  scale_min: 0.9
+  p_frame: 0
+use_round: false
+use_pred_crop: false
+thr: 0.5572
+pred_mask_path: ""
